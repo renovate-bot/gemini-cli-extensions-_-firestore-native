@@ -1,0 +1,19 @@
+{
+  "name": "Firestore (Native Mode)",
+  "version": "0.1.0",
+  "description": "Connect to firestore-native",
+  "mcpServers": {
+    "Firestore": {
+      "command": "${extensionPath}${/}toolbox",
+      "args": [
+        "--prebuilt",
+        "firestore",
+        "--stdio"
+      ],
+      "env": {
+        "FIRESTORE_PROJECT": "${FIRESTORE_PROJECT}"
+      }
+    }
+  },
+  "contextFileName": "FIRESTORE-NATIVE.md"
+}

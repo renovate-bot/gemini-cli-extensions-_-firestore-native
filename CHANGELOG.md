@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.3.0](https://github.com/gemini-cli-extensions/firestore-native/compare/0.2.1...0.3.0) (2026-04-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for skills ([#105](https://github.com/gemini-cli-extensions/firestore-native/issues/105)) ([da51057](https://github.com/gemini-cli-extensions/firestore-native/commit/da51057d4ccf454a0336b46d36f61e230dbeeb6f))
+* **firestore:** restructure prebuilt toolsets ([mcp-toolbox#​2636](https://redirect.github.com/googleapis/mcp-toolbox/issues/2636))
+* update repo name ([mcp-toolbox#​2968](https://redirect.github.com/googleapis/mcp-toolbox/issues/2968))
+
+### Features
+
+* **skill:** Attach user agent metadata for generated skill ([mcp-toolbox#​2697](https://redirect.github.com/googleapis/mcp-toolbox/issues/2697)) ([9598a6a](https://redirect.github.com/googleapis/mcp-toolbox/commit/9598a6a32597b9c9abdb0f20c06d86a01b0d011f)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skill:** Update skill generation logic ([mcp-toolbox#​2646](https://redirect.github.com/googleapis/mcp-toolbox/issues/2646)) ([c233eee](https://redirect.github.com/googleapis/mcp-toolbox/commit/c233eee98cd9621526cb286245f3874f5bd6e7da)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e)) ([mcp-toolbox#​2733](https://redirect.github.com/googleapis/mcp-toolbox/issues/2733)) ([5b85c65](https://redirect.github.com/googleapis/mcp-toolbox/commit/5b85c65960dba9bfaf4cadca6d44532a153976e1)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Add Claude Code support to generated scripts ([mcp-toolbox#​2966](https://redirect.github.com/googleapis/mcp-toolbox/issues/2966)) ([a1609e1](https://redirect.github.com/googleapis/mcp-toolbox/commit/a1609e10a2eaf4ea68eae36acec3eed355b8a052)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Add codex user agent ([mcp-toolbox#​2973](https://redirect.github.com/googleapis/mcp-toolbox/issues/2973)) ([070e939](https://redirect.github.com/googleapis/mcp-toolbox/commit/070e9399c02f088d43175ce6bf343378beb7f584)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Tool invocation via npx ([mcp-toolbox#​2916](https://redirect.github.com/googleapis/mcp-toolbox/issues/2916)) ([377dc5b](https://redirect.github.com/googleapis/mcp-toolbox/commit/377dc5b00145a0044eef39314dd6b0ef5966fcd7)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* add Claude code plugin config ([#107](https://github.com/gemini-cli-extensions/firestore-native/issues/107)) ([f616fb1](https://github.com/gemini-cli-extensions/firestore-native/commit/f616fb103fc8a5020379c8d0d39eb0f823ee5efe))
+* add Codex plugin config ([#108](https://github.com/gemini-cli-extensions/firestore-native/issues/108)) ([cf4506c](https://github.com/gemini-cli-extensions/firestore-native/commit/cf4506cc198f5b2169c17debd892a85d74c7cf0d))
+
+
+### Bug Fixes
+
+* **skill:** Fix env variable propagation ([mcp-toolbox#​2645](https://redirect.github.com/googleapis/mcp-toolbox/issues/2645)) ([5271368](https://redirect.github.com/googleapis/mcp-toolbox/commit/52713687208994c423da64333cb0a04fb483f794)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Fix integer parameter parsing through agent skills ([mcp-toolbox#​2847](https://redirect.github.com/googleapis/mcp-toolbox/issues/2847)) ([4564efe](https://redirect.github.com/googleapis/mcp-toolbox/commit/4564efe75436b4081d9f3d1f7c912bc64c13f850)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Fix skill generation template ([mcp-toolbox#​2914](https://redirect.github.com/googleapis/mcp-toolbox/issues/2914)) ([a01a15e](https://redirect.github.com/googleapis/mcp-toolbox/commit/a01a15ed1aa9a83eda8362578fed2e3a3c8dde99)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Improve flag validation and silence unit test output ([mcp-toolbox#​2759](https://redirect.github.com/googleapis/mcp-toolbox/issues/2759)) ([f3da6aa](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3da6aa5e23b609a1ac9ecc098bccea02f2388ab)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+* **skills:** Prevent empty strings overriding optional env vars in node scripts ([mcp-toolbox#​2963](https://redirect.github.com/googleapis/mcp-toolbox/issues/2963)) ([c52adeb](https://redirect.github.com/googleapis/mcp-toolbox/commit/c52adeba76fc13d0e6e415f6393def0648e478d6)) ([ac552d0](https://github.com/gemini-cli-extensions/firestore-native/commit/ac552d0702430782ab452dbd8f29f9f8532b645e))
+
 ## [0.2.1](https://github.com/gemini-cli-extensions/firestore-native/compare/0.2.0...0.2.1) (2026-03-03)
 
 
